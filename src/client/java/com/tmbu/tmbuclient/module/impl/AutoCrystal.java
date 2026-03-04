@@ -55,7 +55,7 @@ public class AutoCrystal extends Module {
     private final SliderSetting  nearbyRange      = addSetting(new SliderSetting("Nearby Range", 12.0, 3.0, 32.0, 0.5));
     private final BooleanSetting checkLOS         = addSetting(new BooleanSetting("Check Line Of Sight", true));
     private final BooleanSetting onlyOffSword     = addSetting(new BooleanSetting("Only Explode Not Sword", false));
-    private final BooleanSetting targetAboveBase  = addSetting(new BooleanSetting("Target Above Base", false));
+    private final BooleanSetting targetAboveBase  = addSetting(new BooleanSetting("Target Above Base(not working)", false));
     private final BooleanSetting onlyTotemOffhand = addSetting(new BooleanSetting("Only Totem Offhand", false));
     private final BooleanSetting stopOnShield     = addSetting(new BooleanSetting("Stop On Shield", true));
     private final BooleanSetting stopOnAnchor     = addSetting(new BooleanSetting("Stop On Anchor", true));
